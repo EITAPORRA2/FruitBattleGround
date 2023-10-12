@@ -29,7 +29,7 @@ for _, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
 end
  
 
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UniverseHubScripts/Librarys/main/Rayfield.lua'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
     Name = string.format("Universe Hub | %s", GameName),
     LoadingTitle = string.format("Universe Hub", GameName),
